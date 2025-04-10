@@ -94,6 +94,59 @@ button:focus {
   background-color: transparent !important;
   border-color: transparent !important;
 }
+/* Custom Toggle Button Styles */
+.custom-toggler {
+  border: 2px solid #ff4500; /* Orange border */
+  padding: 8px 12px;
+  border-radius: 50px; /* Round edges */
+  background-color: #ff4500; /* Orange background */
+  transition: all 0.3s ease; /* Smooth transition on hover */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  width: 25px; /* Adjust icon width */
+  height: 3px; /* Adjust icon height */
+  background-color: white; /* White lines for the hamburger icon */
+  border-radius: 3px; /* Rounded corners for the icon */
+  transition: all 0.3s ease; /* Smooth transition for icon color */
+}
+
+/* Hover Effect */
+.custom-toggler:hover {
+  background-color: #ff6347; /* Lighter orange on hover */
+  border-color: #ff6347; /* Border color change on hover */
+}
+
+.custom-toggler:hover .navbar-toggler-icon {
+  background-color: #f0f0f0; /* Change hamburger icon to light gray on hover */
+}
+
+/* Active State when the menu is expanded */
+.custom-toggler[aria-expanded="true"] {
+  background-color: #32cd32; /* Green background when the menu is open */
+  border-color: #32cd32; /* Green border when menu is open */
+}
+
+.custom-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background-color: #ffffff; /* White lines when the menu is open */
+}
+
+/* Mobile View: Customize icon size and appearance */
+@media (max-width: 767px) {
+  .custom-toggler {
+    width: 45px; /* Wider button on mobile */
+    height: 45px; /* Height same as width for a perfect circle */
+  }
+
+  .custom-toggler .navbar-toggler-icon {
+    width: 30px;
+    height: 3px;
+    background-color: white; /* Maintain white color on mobile */
+  }
+}
 
 .navbar-toggler span {
   display: block !important;
@@ -848,15 +901,3 @@ button:focus {
   box-shadow: 0 0 8px rgba(255, 0, 102, 0.6);
 }
 
-/* @keyframes blink {
-  0%, 100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.6;
-  }
-/* }
-.blinking-button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 12px rgba(255, 0, 102, 0.8);
-} */ 

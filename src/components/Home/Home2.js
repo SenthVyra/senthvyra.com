@@ -1,6 +1,6 @@
 import React from "react";
-import { Col, Container, Row } from "react-bootstrap";
-import { AiFillGithub, AiFillInstagram, AiFillYoutube, AiOutlineFacebook, AiOutlineTwitter } from "react-icons/ai";
+import { Button, Col, Container, Row } from "react-bootstrap";
+import { AiFillInstagram, AiFillYoutube, AiOutlineFacebook, AiOutlineGoogle } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import Tilt from "react-parallax-tilt";
 import myImg from "../../Assets/avatar.jpg";
@@ -39,6 +39,7 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -46,7 +47,7 @@ function Home2() {
               Feel free to <span className="purple">connect</span> with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="https://github.com/SenthVyra"
                   target="_blank"
@@ -55,7 +56,7 @@ function Home2() {
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
                   href="https://www.facebook.com/SenthVyra"
@@ -98,18 +99,36 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/SenthVyra"
+                  href=" https://g.co/kgs/7JMXoiH "
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiOutlineGoogle />
                 </a>
               </li>
             </ul>
           </Col>
         </Row>
       </Container>
+
+      {/* Quick Message Button */}
+      <div className="quick-message-btn-container" style={{ position: "fixed", bottom: "20px", right: "20px" }}>
+        <Button
+          href="https://iam.senthvyra.com/#contact"
+          target="_blank"
+          rel="noreferrer"
+          variant="danger"
+          style={{
+            fontSize: "18px",
+            padding: "10px 20px",
+            borderRadius: "30px",
+            boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
+          }}
+        >
+          Contact Me
+        </Button>
+      </div>
     </Container>
   );
 }

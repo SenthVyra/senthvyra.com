@@ -30,7 +30,15 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col
+              md={5}
+              style={{
+                paddingBottom: 20,
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",  // This centers the content vertically and horizontally
+              }}
+            >
               <img
                 src={homeLogo}
                 alt="home pic"
