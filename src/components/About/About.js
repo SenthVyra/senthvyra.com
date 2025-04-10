@@ -37,7 +37,12 @@ function About() {
 
         <div className="profile-container">
           <h1 align="center">
-            <a id="hi--im-Senth-Vyra" className="anchor" href="#hi--im-Senth-Vyra">
+            <a
+              id="hi--im-Senth-Vyra"
+              className="anchor"
+              href="#hi--im-Senth-Vyra"
+              style={{ color: "white", textDecoration: "none" }} // Remove blue color and underline
+            >
               Hi{" "}
               <a
                 target="_blank"

@@ -25,6 +25,24 @@ function App() {
       upadateLoad(false);
     }, 1200);
 
+    // 🧠 Facebook SDK injection
+    if (!window.FB) {
+      const script = document.createElement("script");
+      script.async = true;
+      script.defer = true;
+      script.crossOrigin = "anonymous";
+      script.src =
+        "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0";
+      script.onload = () => {
+        if (window.FB) {
+          window.FB.XFBML.parse();
+        }
+      };
+      document.body.appendChild(script);
+    } else {
+      window.FB.XFBML.parse();
+    }
+
     return () => clearTimeout(timer);
   }, []);
 
@@ -39,7 +57,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          <Route path="*" element={<Navigate to="/"/>} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />
       </div>
