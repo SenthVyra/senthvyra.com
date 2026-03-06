@@ -94,7 +94,7 @@ function NavBar() {
 
             {/* <Nav.Item>
               <Nav.Link
-                href="https://www.senthvyra.com/blog"
+                href="https://www.linkedin.com/in/senthvyra"
                 target="_blank"
                rel="noreferrer"
                >
@@ -105,7 +105,7 @@ function NavBar() {
             <Nav.Item className="blinking-contact-btn">
               <Button
                 ref={contactButtonRef}
-                href="https://www.senthvyra.com/blog"
+                href="https://www.linkedin.com/in/senthvyra"
                 target="_blank"
                 rel="noreferrer"
                 variant="danger"
