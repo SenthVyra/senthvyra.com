@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
@@ -60,6 +60,15 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
+              <Nav.Link
+                href="https://iam.senthvyra.com"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <ImBlog /> Intro
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => setExpand(false)}>
                 <AiOutlineHome /> Home
               </Nav.Link>
@@ -83,26 +92,26 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
+            {/* <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/in/senthvyra"
+                href="https://www.senthvyra.com/blog"
                 target="_blank"
-                rel="noreferrer"
-              >
+               rel="noreferrer"
+               >
                 <ImBlog /> Blogs
               </Nav.Link>
-            </Nav.Item>
+            </Nav.Item> */}
 
             <Nav.Item className="blinking-contact-btn">
               <Button
                 ref={contactButtonRef}
-                href="https://iam.senthvyra.com"
+                href="https://www.senthvyra.com/blog"
                 target="_blank"
                 rel="noreferrer"
                 variant="danger"
                 className="blinking-button"
               >
-                Get a Quote
+                Blogs
               </Button>
             </Nav.Item>
           </Nav>
