@@ -1,9 +1,10 @@
 import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
-import { Container } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 import Particle from "../Particle";
 import blogPosts, { slugFromLink } from "../../data/blogPosts";
 import { AiOutlineArrowLeft } from "react-icons/ai";
+import { FaLinkedin, FaMediumM } from "react-icons/fa";
 
 function BlogPost() {
   const { slug } = useParams();
@@ -46,6 +47,19 @@ function BlogPost() {
 
         <div className="blog-post-body">
           <p>{post.summary}</p>
+        </div>
+
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "10px", marginBottom: "30px" }}>
+          {post.linkedinLink && (
+            <Button href={post.linkedinLink} target="_blank" rel="noreferrer" variant="outline-light">
+              <FaLinkedin /> &nbsp;Read on LinkedIn
+            </Button>
+          )}
+          {post.mediumLink && (
+            <Button href={post.mediumLink} target="_blank" rel="noreferrer" variant="outline-light">
+              <FaMediumM /> &nbsp;Read on Medium
+            </Button>
+          )}
         </div>
 
         <Link to="/blog" className="blog-link blog-post-back">

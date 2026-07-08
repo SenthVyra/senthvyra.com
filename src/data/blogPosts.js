@@ -4,6 +4,8 @@ const blogPosts = [
   {
     title: "When the Table Gets Longer - Going Beyond",
     link: "https://medium.com/@senthvyra/when-the-table-gets-longer-going-beyond-2beab00e131f",
+    mediumLink: "https://medium.com/@senthvyra/when-the-table-gets-longer-going-beyond-2beab00e131f",
+    linkedinLink: "https://www.linkedin.com/pulse/when-table-gets-longer-going-beyond-senthalan-vyravanathan-qnsyc/",
     pubDate: "2025-12-21",
     categories: ["senth-vyra", "software-company", "software-development", "habb", "sri-lanka"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*m3sWSoxW5QeZldPX",
@@ -15,6 +17,8 @@ const blogPosts = [
   {
     title: "The Week HABB Started Walking Into Real AI",
     link: "https://medium.com/@senthvyra/the-week-habb-started-walking-into-real-ai-e84f0a9ba2fa",
+    mediumLink: "https://medium.com/@senthvyra/the-week-habb-started-walking-into-real-ai-e84f0a9ba2fa",
+    linkedinLink: "https://www.linkedin.com/pulse/week-habb-started-walking-real-ai-senthalan-vyravanathan-ji42c/",
     pubDate: "2025-12-02",
     categories: ["senth-vyra", "senthalan-vyravanathan", "habb", "startup", "ai-projects"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*LKQ5HGWO2tYKrJIN",
@@ -26,6 +30,8 @@ const blogPosts = [
   {
     title: "From Software Engineer to Marketing Leader: The OOIVU Journey",
     link: "https://medium.com/@senthvyra/from-software-engineer-to-marketing-leader-the-ooivu-journey-59d36ad5baab",
+    mediumLink: "https://medium.com/@senthvyra/from-software-engineer-to-marketing-leader-the-ooivu-journey-59d36ad5baab",
+    linkedinLink: "https://www.linkedin.com/pulse/from-software-engineer-marketing-leader-ooivu-journey-vyravanathan-rphpc/",
     pubDate: "2025-11-15",
     categories: ["senth-vyra", "innovay", "ooivu", "habb", "marketing"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*OEJHf1TPtAaFyrcr",
@@ -36,6 +42,8 @@ const blogPosts = [
   {
     title: "A New Chapter with Vavuniya Fashion Academy (VFA) & HABB Edgrow",
     link: "https://medium.com/@senthvyra/a-new-chapter-with-vavuniya-fashion-academy-vfa-habb-edgrow-35727ff9c626",
+    mediumLink: "https://medium.com/@senthvyra/a-new-chapter-with-vavuniya-fashion-academy-vfa-habb-edgrow-35727ff9c626",
+    linkedinLink: "https://www.linkedin.com/pulse/new-chapter-vavuniya-fashion-academy-vfa-habb-edgrow-vyravanathan-mhakc/",
     pubDate: "2025-11-09",
     categories: ["habb", "senth-vyra", "vavuniya-fashion-academy", "edgrow", "women-empowerment"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*3b8oLF_auTw87LTQ",
@@ -47,6 +55,8 @@ const blogPosts = [
   {
     title: "EdGrow's Journey - Part 2",
     link: "https://medium.com/@senthvyra/edgrows-journey-part-2-197246c0cd3b",
+    mediumLink: "https://medium.com/@senthvyra/edgrows-journey-part-2-197246c0cd3b",
+    linkedinLink: "https://www.linkedin.com/pulse/edgrows-journey-part-2-senthalan-vyravanathan-5ibfc/",
     pubDate: "2025-11-06",
     categories: ["sri-lanka", "senth-vyra", "education", "habb", "edgrow"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*hM_JrH04QNZBVgLb",
@@ -58,6 +68,8 @@ const blogPosts = [
   {
     title: "What is EdGrow?",
     link: "https://medium.com/@senthvyra/what-is-edgrow-20bf2945a976",
+    mediumLink: "https://medium.com/@senthvyra/what-is-edgrow-20bf2945a976",
+    linkedinLink: "https://www.linkedin.com/pulse/what-edgrow-senthalan-vyravanathan-tktgc/",
     pubDate: "2025-09-02",
     categories: ["habb", "social-services", "edgrow", "sri-lanka"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*v10qhXidhiwx9eqP",
@@ -69,6 +81,8 @@ const blogPosts = [
   {
     title: "Next Chapter: The Internship Wave at HABB",
     link: "https://medium.com/@senthvyra/next-chapter-the-internship-wave-at-habb-734824afca3f",
+    mediumLink: "https://medium.com/@senthvyra/next-chapter-the-internship-wave-at-habb-734824afca3f",
+    linkedinLink: "https://www.linkedin.com/pulse/next-chapter-internship-wave-habb-senthalan-vyravanathan-bueac/",
     pubDate: "2025-08-28",
     categories: ["internships", "habb-lanka", "habb"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/1*C2YQmn5alHOzhWVWZj6juA.jpeg",
@@ -80,6 +94,8 @@ const blogPosts = [
   {
     title: "Thalir 2025 - When Ideas Take Root in the North",
     link: "https://medium.com/@senthvyra/thalir-2025-when-ideas-take-root-in-the-north-1e1c1bea03e0",
+    mediumLink: "https://medium.com/@senthvyra/thalir-2025-when-ideas-take-root-in-the-north-1e1c1bea03e0",
+    linkedinLink: "https://www.linkedin.com/pulse/thalir-2025-when-ideas-take-root-north-senthalan-vyravanathan-dxubc/",
     pubDate: "2025-08-04",
     categories: ["thalir", "jaffna", "startup", "sri-lanka", "david-pieris"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*Wn90Q3hHWIOY-dd8",
@@ -91,6 +107,8 @@ const blogPosts = [
   {
     title: "VANTA 25 - HABB Phase 2 Begins: A New Era of Product-Driven Innovation",
     link: "https://medium.com/@senthvyra/vanta-25-habb-phase-2-begins-a-new-era-of-product-driven-innovation-65d203687118",
+    mediumLink: "https://medium.com/@senthvyra/vanta-25-habb-phase-2-begins-a-new-era-of-product-driven-innovation-65d203687118",
+    linkedinLink: "https://www.linkedin.com/pulse/vanta-25-habb-phase-2-begins-new-era-product-driven-vyravanathan-5wclc/",
     pubDate: "2025-07-17",
     categories: ["habb", "senth-vyra", "sri-lanka", "vanta", "software-company"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*rCtqDAO72tWxQb12",
@@ -102,6 +120,8 @@ const blogPosts = [
   {
     title: "The HABB Journey: Part Two - Where Sparks Found a Home",
     link: "https://medium.com/@senthvyra/the-habb-journey-part-two-where-sparks-found-a-home-cf5663120cee",
+    mediumLink: "https://medium.com/@senthvyra/the-habb-journey-part-two-where-sparks-found-a-home-cf5663120cee",
+    linkedinLink: "https://www.linkedin.com/pulse/habb-journey-phase-two-senthalan-vyravanathan-bbwhc/",
     pubDate: "2025-07-13",
     categories: ["senth-vyra", "habb", "software-company", "startup", "sri-lanka"],
     thumbnail: "https://cdn-images-1.medium.com/max/1024/0*5wB-WSL3iy36Oqa_",
@@ -113,6 +133,8 @@ const blogPosts = [
   {
     title: "🕰️ Some Moments Are Rare",
     link: "https://medium.com/@senthvyra/%EF%B8%8F-some-moments-are-rare-2d46ecbaf9d9",
+    mediumLink: "https://medium.com/@senthvyra/%EF%B8%8F-some-moments-are-rare-2d46ecbaf9d9",
+    linkedinLink: "https://www.linkedin.com/pulse/some-moments-rare-senthalan-vyravanathan-xnsjc/",
     pubDate: "2025-07-02",
     categories: ["senth-vyra", "sri-lanka", "jaffna", "story"],
     thumbnail: "https://miro.medium.com/v2/resize:fit:700/0*nHThAg-dBGclOJZw",
@@ -124,6 +146,7 @@ const blogPosts = [
   {
     title: "The Calm Within the Chaos | ft. Gajarthan Theverajah",
     link: "https://www.linkedin.com/pulse/calm-within-chaos-ft-gajarthan-theverajah-senthalan-vyravanathan-ud6oc/",
+    linkedinLink: "https://www.linkedin.com/pulse/calm-within-chaos-ft-gajarthan-theverajah-senthalan-vyravanathan-ud6oc/",
     pubDate: "2025-06-12",
     categories: ["senth-vyra", "mentorship", "leadership", "startup"],
     thumbnail:
@@ -136,6 +159,8 @@ const blogPosts = [
   {
     title: "The Extraordinary Journey of HABB",
     link: "https://medium.com/@senthvyra/the-extraordinary-journey-of-habb-2d6c3d1ba5e7",
+    mediumLink: "https://medium.com/@senthvyra/the-extraordinary-journey-of-habb-2d6c3d1ba5e7",
+    linkedinLink: "https://www.linkedin.com/pulse/extraordinary-journey-habb-senthalan-vyravanathan-wgrac/",
     pubDate: "2025-06-09",
     categories: ["habb-lanka", "habb", "software-company", "story", "entrepreneurship"],
     thumbnail: "https://miro.medium.com/v2/resize:fit:700/0*ibd-ZGVUB5dvdncK",
@@ -147,6 +172,7 @@ const blogPosts = [
   {
     title: "Google now knows my name.",
     link: "https://www.linkedin.com/pulse/google-now-knows-my-name-senthalan-vyravanathan-btwcc/",
+    linkedinLink: "https://www.linkedin.com/pulse/google-now-knows-my-name-senthalan-vyravanathan-btwcc/",
     pubDate: "2025-06-03",
     categories: ["senth-vyra", "personal-branding", "milestone"],
     thumbnail:
@@ -159,6 +185,8 @@ const blogPosts = [
   {
     title: "A War-torn Dreamer from Vaddakkachchi — \"A Kutty Story\"",
     link: "https://medium.com/@senthvyra/a-war-torn-dreamer-from-vaddakkachchi-a-kutty-story-0238ed3f03f4",
+    mediumLink: "https://medium.com/@senthvyra/a-war-torn-dreamer-from-vaddakkachchi-a-kutty-story-0238ed3f03f4",
+    linkedinLink: "https://www.linkedin.com/pulse/war-torn-dreamer-from-vaddakkachchi-kutty-story-vyravanathan-kjxgc/",
     pubDate: "2025-05-27",
     categories: ["entrepreneurship", "senth-vyra", "startup", "software-development", "habb"],
     thumbnail: "https://miro.medium.com/v2/resize:fit:700/1*Og6bDWlii_bEpl_33IIaqw.png",
@@ -170,6 +198,7 @@ const blogPosts = [
   {
     title: "Is the Field Saturated? Let's Talk About Growth and Opportunities",
     link: "https://www.linkedin.com/pulse/field-saturated-lets-talk-growth-opportunities-senthalan-vyravanathan-wyf5c/",
+    linkedinLink: "https://www.linkedin.com/pulse/field-saturated-lets-talk-growth-opportunities-senthalan-vyravanathan-wyf5c/",
     pubDate: "2025-01-04",
     categories: ["career-growth", "senth-vyra", "software-engineering", "mindset"],
     thumbnail:

@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import { FaLinkedin, FaMediumM } from "react-icons/fa";
 import logo from "../../Assets/logo.png";
 import { slugFromLink } from "../../data/blogPosts";
 
-function BlogCard({ title, link, pubDate, categories, thumbnail, excerpt }) {
+function BlogCard({ title, link, pubDate, categories, thumbnail, excerpt, linkedinLink, mediumLink }) {
   const formattedDate = new Date(pubDate).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
@@ -55,9 +56,31 @@ function BlogCard({ title, link, pubDate, categories, thumbnail, excerpt }) {
           ))}
         </div>
 
-        <Button as={Link} to={to} variant="primary">
-          Read More &nbsp; <AiOutlineArrowRight />
-        </Button>
+        <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
+          <Button as={Link} to={to} variant="primary">
+            Read More &nbsp; <AiOutlineArrowRight />
+          </Button>
+          {linkedinLink && (
+            <Button
+              href={linkedinLink}
+              target="_blank"
+              rel="noreferrer"
+              variant="outline-light"
+            >
+              <FaLinkedin /> &nbsp;LinkedIn
+            </Button>
+          )}
+          {mediumLink && (
+            <Button
+              href={mediumLink}
+              target="_blank"
+              rel="noreferrer"
+              variant="outline-light"
+            >
+              <FaMediumM /> &nbsp;Medium
+            </Button>
+          )}
+        </div>
       </Card.Body>
     </Card>
   );
