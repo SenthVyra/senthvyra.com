@@ -92,26 +92,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
-              <Nav.Link
-                href="https://www.linkedin.com/in/senthvyra"
-                target="_blank"
-               rel="noreferrer"
-               >
-                <ImBlog /> Blogs
-              </Nav.Link>
-            </Nav.Item> */}
-
             <Nav.Item className="blinking-contact-btn">
               <Button
                 ref={contactButtonRef}
-                href="https://www.linkedin.com/in/senthvyra"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/blog"
+                onClick={() => setExpand(false)}
                 variant="danger"
                 className="blinking-button"
               >
-                Blogs
+                <ImBlog /> Blogs
               </Button>
             </Nav.Item>
           </Nav>
