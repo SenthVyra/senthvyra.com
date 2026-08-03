@@ -18,7 +18,7 @@ function AboutCard() {
             developing web and mobile applications, cybersecurity, and system analysis.
             <br />
             <br />
-            I am also the <b className="purple">Co-Founder of HABB</b>, a technology startup focused on delivering 
+            I am also the <b className="purple">Founder & CEO of HABB Global</b>, a technology startup focused on delivering
             innovative solutions in AI, cloud computing, and custom software development.
             <br />
             Apart from coding, I am a <b className="purple">YouTube Partner</b> with 12K+ subscribers, 
